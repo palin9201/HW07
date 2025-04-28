@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網頁滿意度</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 引入外部CSS样式表 -->
+    <script src="script.js" defer></script>  <!-- 引入外部JavaScript文件 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        iframe {
+            border: none;
+            margin: 20px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* 添加响应式设计，适应手机端 */
+        @media (max-width: 768px) {
+            iframe {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeP2Isn2G_CSSGIi4FTyJlvpGOp-63btDaAb6vGvAyS8FeM3Q/viewform?embedded=true" width="640" height="542" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+        
+        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRX-1M_rZ6jg_10U3_VUdhF_J7wd_gvPfHCcZ12cex-PwM6JUY5ZFd4vcFFETs94LPEinpjte4nIQEH/pubchart?oid=483683070&amp;format=interactive"></iframe>
+    </div>
+</body>
+</html>
